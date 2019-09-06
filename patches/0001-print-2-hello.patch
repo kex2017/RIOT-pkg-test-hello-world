@@ -1,0 +1,25 @@
+From c2e89a199070ab19cd03c3d1289032a213e4d062 Mon Sep 17 00:00:00 2001
+From: xuke <xuke@klec.com.cn>
+Date: Fri, 6 Sep 2019 16:02:01 +0800
+Subject: [PATCH] print 2 hello
+
+---
+ hello.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/hello.c b/hello.c
+index 7e9019d..7538615 100644
+--- a/hello.c
++++ b/hello.c
+@@ -4,7 +4,7 @@
+ int print_hello(int num)
+ {
+ 	for(int i = 0; i < num; i++){
+-		printf("hello\r\n");
++		printf("hello hello\r\n");
+ 	}
+ 	return num;
+ }
+-- 
+2.7.4
+
